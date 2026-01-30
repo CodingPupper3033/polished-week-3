@@ -3,10 +3,7 @@ import matplotlib.pyplot as plt
 from simulation.simulator import simulate_seir
 from viz.plot_seir import plot_results
 
-
 if __name__ == "__main__":
-
-
     parameters = (3, 0.5, 0.5)
 
     # S0, E0, I0, R0
